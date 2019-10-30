@@ -1,0 +1,104 @@
+body {
+	overflow-x: hidden;
+}
+
+.carousel-caption {
+	color : #1F618D;
+	text-shadow : 3px 3px 8px #616A6B; 
+}
+
+.imageCarousel {
+	margin : auto;
+}
+
+figcaption {
+	text-align: center;
+}
+
+.logo {
+	height : 80px;
+	width : 80px;
+	border : solid;
+	border-radius : 25px;
+	position : absolute;
+	top : 1px;
+	left : 1px;
+}
+
+.thumbnail:hover {
+	border-color : #1F618D;
+	padding : 10px;
+}
+
+.img-center {
+	margin : auto;
+}
+
+.carousel-indicators  li {
+	background-color : #1F618D !important;
+}
+
+.img-circle {
+	display : inline-block;
+}
+
+.jumbotron {
+	background-attachment : fixed;
+	background-size : 100%;
+}
+
+.backgroundContact {
+	background-image : url("../ImagesBootStrap/tshirts/contact.jpg");
+	color : black;
+}
+
+.backgroundComics {
+	background-image : url("../ImagesBootStrap/tshirts/Comics/Batman/batmanwallpaper.jpg");
+	color : white;
+}
+
+.backgroundFilms {
+	background-image : url("../ImagesBootStrap/tshirts/Films/pirateswallpaper.jpg");
+	color : white;
+}
+
+.backgroundSeries {
+	background-image : url("../ImagesBootStrap/tshirts/Series/serieswallpaper.jpg");
+	color : white;
+}
+
+.backgroundJeux {
+	background-image : url("../ImagesBootStrap/tshirts/Jeux/jeuxbackground.jpg");
+	color : white;
+}
+
+.panel-title a {
+	text-decoration : none;
+}
+
+.panel-title a:hover {
+	text-decoration : none;
+	font-weight : bold;
+}
+
+
+.container .text-center img{
+  -webkit-transition:-webkit-transform .9s; // Chrome Safari
+  -moz-transition:-moz-transform .9s;       // Mozilla
+  -o-transition:-o-transform .9s;           // Opéra
+  -ms-transition:-ms-transform .9s;         // IE
+  transition:transform .9s;
+}
+
+.container .text-center img:hover {
+  -webkit-transform:rotate(360deg); 
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg); 
+  -ms-transform:rotate(360deg);   
+  transform:rotate(360deg);
+}
+
+h4 {
+	font-weight : bold;
+	color: #1F618D;
+}
